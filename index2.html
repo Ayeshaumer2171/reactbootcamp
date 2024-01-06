@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+//find factroail of a number
+ var number=prompt('enter a number');
+ for(var i=1;i<=number;i++){
+    if(number%i==0){
+        console.log(i)
+    }
+}
+
+//find sum of natural numbers
+// function sum(num){
+// if(num>0){
+//     return num+sum(num-1);
+
+// }else{
+//     return num;
+// }
+// }
+// var res=sum(20);
+// console.log(res)
+
+// //find armstrong
+//   var a=prompt('enter lower string');
+//   var b=prompt('enter upper string');
+// for(var i=a;i<=b;i++){
+// var temp=i;
+// var noOfDigit=i.toString().length;
+// var sum=0;
+// while(temp<0){
+//     var digit=temp%10;
+//     temp=parseInt(temp/10);
+//     sum+=digit**noOfDigit;
+// }
+// if(sum==i){
+// console.log("yes this is amtrsong")
+// }
+// }
+
+//count number of vovels
+//   var string=prompt('enter a string');
+// //   const testReg=/[aeiou]/gi;
+//   var count=string.match(/[aeiou]/gi);
+//   var chars=count.length;
+//   console.log(chars);
+
+
+
+// var string=prompt('enter a string');
+//  var remaining=string.slice(1);
+// var caps=string.charAt(0).toUpperCase()+remaining;
+// console.log(caps)
+
+//string contains a substring
+// var string=prompt('enter a string');
+// var substring="the";
+// let test1=string.includes(substring);
+// console.log(test1);
+// let test2=string.indexOf(substring);
+// console.log(test2);
+
+//checking same char of start and ending char 
+// var string=prompt('enter a string');
+// var testStart=string.startsWith('w');
+// var testEnd=string.endsWith('e');
+// if(testStart ==true && testEnd==true){
+//      console.log(string)
+// }else{
+//     console.log(string)
+// }
+// console.log(testStart);
+// console.log(testEnd);
+
+
+//ocuurence of letter in a string
+
+//  var a=prompt('enter a string');
+//  var b=prompt('enter some charcter');
+//  var count=0;
+//  for(var i=0;i<a.length;i++){
+//    if(a[i]==b){
+// count++
+//    }
+//  }
+// console.log(`${a}=>${b}=>${count}`);
+
+
+
+//     var a=prompt('enter a number');
+//     var temp=a;
+//     var noOfDigits=a.toString().length;
+//     var sum=0;
+//   while(temp>0){
+//  var digit=temp%10;
+//   sum+=digit**noOfDigits;
+//   temp=parseInt(temp/10);
+//  }
+// if(sum==a){
+//     console.log('this is amstrng')
+// }else{
+//     console.log('this is not  amstrng number')
+
+// }
+
+
+//numbers have last digit
+//  var a=prompt('enter first number')
+// var b=prompt('enter second number')
+// var c=prompt('enter third number')
+
+//  var res1=a%10;
+//  var res2=b%10;
+//  var res3=c%10;
+
+// if(res1===res2&&res1===res3){
+// console.log(`${a},${b},${c} are having same digits`)
+// }else{
+//     console.log(`${a},${b},${c} are not having same  last digits`)
+// }
+
+//paindrome string using for loop
+//  var string=prompt('enter some string');
+//  var len=string.length;
+//  for(var i=0;i<len/2;i++){
+//     if(string[i]!=string[len-i-1]){
+// console.log('it is not a palindrome string');
+//  } else{
+//     console.log('it is palindrome string');
+
+//  }
+//  }
+</script>
+</html>
